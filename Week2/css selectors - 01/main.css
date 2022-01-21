@@ -1,0 +1,21 @@
+a:link {
+  color: darkmagenta
+}
+
+a:visited {
+  color: peachpuff;
+}
+
+a:hover {
+  background-color: chartreuse;
+}
+
+a:active {
+  background-color: mediumslateblue;
+}
+
+body {
+    font-size: 36px;
+    text-align: center;
+    border: 10px solid darkred;
+}
