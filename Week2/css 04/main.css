@@ -1,0 +1,43 @@
+body {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 36px;
+}
+
+div p {
+    color: red;
+    background-color: darkblue;
+}
+
+body {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 36px;
+}
+div > P {
+    color: whitesmoke;
+}
+
+body {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 36px;
+}
+div ~ p {
+    color: yellow;
+    background-color: thistle;
+}
+body {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 36px;
+}
+div + p {
+    color: rosybrown;
+    background-color: silver;
+}
+h1 {
+    font-family: cursive;
+    background-color: thistle;
+    color:grey;
+}
