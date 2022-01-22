@@ -1,0 +1,22 @@
+ul li:first-child {
+  color: gold
+}
+ul li:last-child {
+  color: darkgray
+}
+li:nth-child(3n) {
+  color: rgba(255, 123, 0, 0.932)
+}
+li:nth-child(odd){
+  background-color: blueviolet
+}
+li:nth-child(even) {
+  background-color: deeppink
+}
+article:only-child {
+    color: red;
+    text-align: center;
+}
+li:nth-child(5n+2) {
+    color: chartreuse
+}
