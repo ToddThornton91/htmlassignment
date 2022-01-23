@@ -1,0 +1,71 @@
+h1 {
+    width: 400px;
+    border: 10px solid; 
+    border-color:gray ;
+    height: 100px;
+    font-family: sans-serif
+}
+  /*Selector used to color website links*/ 
+a:link {
+  color: rgba(59, 54, 54, 0.897);
+}
+/*Selector that shows you visited site by changing color*/ 
+a:visited {
+  color:rgb(224, 96, 205);
+}
+/*Selector used to hover link with color to know what link you are clicking on*/
+a:hover {
+  background-color:rgb(115, 219, 223);
+}
+/*Selector by clicking on link will change color on the link you are choosing*/
+a:active {
+  background-color: rgb(61, 33, 184);
+}
+
+body {
+    font-size: 36px;
+    text-align: center;
+    background-color: rgb(231, 225, 225);
+}
+/*Selector used to style h1 */
+div > P {
+  color: rgb(115, 219, 223);
+  width: 1150px;
+  border: 6px dashed; 
+  border-color:gray ;
+  height: 60px;
+  font-family: sans-ser;
+}
+/*Selector used for my last paragraph*/
+.emphasize {
+  font-style: oblique;
+  color: rgb(10, 2, 9);
+  border: 10px solid;
+  border-color: gray ;
+  width: 1150px;
+  height: 200px;
+  text-align: center;
+}
+article {
+  font-size: 50px;
+  color: rgb(44, 189, 189);
+}
+/*Selector used to make my last sentence in my list stand out*/
+#promote {
+  color: red
+}
+ul {
+  list-style-type: none;
+}
+/* Used for search bar when you click inside it changes color.*/
+input:focus {
+  background-color: rgb(44, 189, 189);
+}
+/* Used to style my even list*/
+li:nth-child(even) {
+  background-color: rgb(172, 161, 167);
+}
+/* Used to style my odd list*/
+li:nth-child(odd) {
+  background-color: rgb(198, 235, 240);
+}
